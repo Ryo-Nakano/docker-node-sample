@@ -1,0 +1,7 @@
+services:
+  node:
+    build: ./node
+    container_name: node-container
+    stdin_open: true
+    tty: true
+
